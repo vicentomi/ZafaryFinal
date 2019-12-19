@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.contenedor-principal h1 {
+  text-align: center;
+}
+
+.contenedor-artistas {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.34%;  
+}
+
+.contenedor-artistas article {
+  padding: 10px;
+  background: #5AD2AE;
+  border: 1px solid #469F85;
+  display:  grid;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.contenedor-artistas img {
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+}
+
+.contenedor-principal {
+  margin: 0 auto;
+  padding:  20px;
+  grid-gap: 20px;
+  width: 500px;
+  background: #F2FCFF;
+  border: 2px solid #C3F1FF;
+}
