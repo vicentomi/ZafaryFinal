@@ -1,63 +1,84 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  main {
-    display: grid;
-    align-items: center;
-    justify-items: center;
-  }
-  
-  .caja-login {
-    margin-left: 500px;
-    margin-top: 200px;
-  }
-  
-  .caja-login h1 {
-    
-  }
-  
-  .formulario-login {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 10px;
-  }
-  
-  .formulario-login small {
-    text-align: center;
-  }
-  
-  .formulario-login input {
-    height: 34px;
-  }
-  
-  .formulario-login button {
-    height: 34px;
-  }
-  
-  /* Efecto al pasar encima el mouse */
-  .formulario-login button:hover {
-    cursor: pointer;
-    background: #469F85;
-  }
-  
-  .formulario-login small {
-    color: gray;
-  }
-  
-  /* Color de texto de ayuda */
-  .formulario-login input::placeholder {
-    color: #5AD2AE;
-    opacity: 1;
-  }
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.caja-login {
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: solid #C3F1FF;
+  background-color: #F2FCFF;
+}
+
+.caja-login h1 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 49px;
+  color: #5AD2AE;
+}
+
+.formulario-login {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+  color: #AFAFAF; 
+  font-size: .5em;
+  font-family: sans-serif;
+}
+
+.formulario-login small {
+  text-align: center;
+}
+
+.formulario-login input {
+  height: 34px;
+  width: 250px;
+  border-radius: 20px;
+  color: #5AD2AE;
+}
+
+.formulario-login button {
+  height: 34px;
+  border-radius: 20px;
+  background: #5AD2AE;
+  color: #ffffff;
+}
+
+/* Efecto al pasar encima el mouse */
+.formulario-login button:hover {
+  cursor: pointer;
+  background: #469F85;
+}
+
+.formulario-login small {
+  color: gray;
+}
+
+/* Color de texto de ayuda */
+.formulario-login input::placeholder {
+  color: #5AD2AE;
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+}
