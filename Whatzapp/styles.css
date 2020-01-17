@@ -1,43 +1,56 @@
 body {
   margin: 0;
-  border: 5px solid red;
+  border: 1px solid #DBDBDB;
   display: grid;
   grid-template-columns: 30% 70%;
   height: 100vh;
 }
 
-main {
-  display: block;
-}
-
 aside {
-  border: 4 px solid #81f542;
-  height: 100vh;
+  height: fit-content;
+  text-align: center;
 }
 
 main {
-  border: 4px solid #8d1dcf;
-  height: 500px;
+  border: 1px solid gray;
+  display: block;
+  height: fit-content;
 }
 
 header {
-  border: 3px solid blue;
+  background: #DBDBDB;
+  height: 70px;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 35px;
+  padding: 20px;
+}
+
+input {
+  background: white;
+  border: 1px solid #DBDBDB;
+  border-radius: 25px;
+  width: 935px;
+  height: 48px;
 }
 
 .lista-contactos {
-  border: 3px solid yellow;
+  border: 1px #DBDBDB;
+  background: white;
 }
 
 .lista-contactos article {
-  border: 2px solid cyan;
-  height: 50px;
+  border: 1px solid #DBDBDB;
+  font-family: sans-serif;
+  height: 70px;
 }
 
 .contenedor-mensajes {
-  border: 2px solid cyan;
+  font-family: sans-serif;
+  border: 1px solid #DBDBDB;
+  background: #F2F2F2;
+  height: 260px;
 }
 
-.contenedor-mensajes article {
-  border: 2px solid green;
-}
+
 
