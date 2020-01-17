@@ -81,6 +81,10 @@ main {
   opacity: 1;
 }
 
-footer {
-  text-align: center;
+
+.safary{
+  padding-left: 80px;
+	color: #AFAFAF;
+  font-size: 15px;
+  font-family: sans-serif;
 }

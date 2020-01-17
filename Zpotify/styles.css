@@ -20,7 +20,7 @@ main {
 .contenedor-artistas {
   display: grid;
   grid-template-columns: 33.33% 33.33% 33.34%;
-  grid-gap: 9px;  
+  grid-gap: 10px;  
 }
 
 .contenedor-artistas article {
@@ -30,7 +30,7 @@ main {
   color: white;
   text-align: center;
   font-family: "calibri", sans-serif;
-  display:  grid;
+  display: grid;
   justify-content: center;
   border-radius: 20px;
 }
@@ -43,9 +43,17 @@ main {
 
 .contenedor-principal {
   margin: 0 auto;
-  padding:  20px;
-  grid-gap: 20px;
+  padding:  40px;
+  padding-left: 20px;
+  grid-gap: 40px;
   width: 500px;
+  box-sizing: border-box;
+  border-radius: 30px;
   background: #F2FCFF;
   border: 2px solid #C3F1FF;
+}
+
+article {
+width: 145px;
+height: 145px;
 }
