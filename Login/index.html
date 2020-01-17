@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
-  <link rel="stylesheet" href="./styles.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login</title>
+  <link rel='stylesheet' href='./styles.css'>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>Zafary</title>
+  <style>
+  .mensaje-visible {
+    color: red;
+    display: block;
+  }
+  .mensaje-invisible {
+    display: none;
+  }
+  </style>
 </head>
 <body>
   <main>
-    <section class="caja-login">
-      <h1>Ingresa a Zafary</h1>
-      <form class="formulario-login">
-        <input class="username" type="text" name="correo" value=" Ingresa tu correo">
-        <input class="pass" type="text" name="contraseña" value=" Ingresa tu contraseña">
-        <button class="login">LOGIN</button>
-        <footer>Yo ❤️ Safary</footer>
+    <section class='caja-login'>
+      <h1>Zafary</h1>
+      <form class='formulario-login'>
+        <input type='text' id='email' value='Ingrese correo'></input>
+        <input type='password' id='password' value='Ingrese contraseña'></input>
+        <button id='boton'>Ingresar</button></input> 
+        <small class='mensaje-invisible' id='mensaje'>Info erronea</small>  
+        <script src='./index.js'></script>
       </form>
     </section>
   </main>
