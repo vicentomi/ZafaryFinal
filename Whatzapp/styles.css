@@ -30,8 +30,10 @@ input {
   background: white;
   border: 1px solid #DBDBDB;
   border-radius: 25px;
-  width: 935px;
+  width: 925px;
   height: 48px;
+  color: #8F8F8F;
+  padding-left: 10px;
 }
 
 .lista-contactos {
@@ -43,14 +45,19 @@ input {
   border: 1px solid #DBDBDB;
   font-family: sans-serif;
   height: 70px;
+  text-align: center;
 }
 
 .contenedor-mensajes {
   font-family: sans-serif;
   border: 1px solid #DBDBDB;
   background: #F2F2F2;
-  height: 260px;
+  height: 400px;
 }
 
-
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
 
